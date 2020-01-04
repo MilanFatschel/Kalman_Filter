@@ -63,10 +63,10 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 
 ## Results 
 
-# Code Compile
+### Code Compile
 1. The code compiles without any errors. Simply go through the build instructions and run the executable.
 
-## RMSE final values
+### RMSE final values
 2. All of the RMSE values were within the requirements:
 Dataset 1:
 X: 0.0974
@@ -80,10 +80,10 @@ Y: 0.0967
 VX: .4582
 VY: .4971
 
-## Kalman Filter Algorithm 
+### Kalman Filter Algorithm 
 3. This code follows the coding algorithm as presented in the lessons. This algorithm handles measurements including radar and lidar. The filter works on the basis of predicting first and then updating based on measaurements.
 
-## Code Efficiency
+### Code Efficiency
 Algorithm uses optimized calculations using matrices. This can be seen in the FusionEKF.cpp file.
 
 
